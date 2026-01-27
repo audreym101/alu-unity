@@ -97,5 +97,7 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
-# Unity generated directories that should not be committed
-unity-assets_models_textures/
+
+# Ignore Unity Library and PackageCache in subdirectories
+**/[Ll]ibrary/
+**/PackageCache/
